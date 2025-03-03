@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html> 
+
+<head>
+<meta charset="UTF-8">
+ <meta http-equiv="X-,UA-Compatible"content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<title>Document</title>
+
+<!-- font awesome cdn link -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
+
+
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+ <!-- custom css link --> 
+
+<link rel="stylesheet" href="design.css">
+</head>
+<body> 
+
+<!-- header section starts-->
+<header class="header">
+<a href="#" class="logo"><i class="fas fa-book"></i>edu</a>
+ 
+ <nav class="navbar">
+ <a href="#home" class="hover-underline">home</a>
+ <a href="#about" class="hover-underline">about</a>
+ <a href="#courses" class="hover-underline">courses</a>
+ <a href="#teacher" class="hover-underline">teacher</a>
+ <a href="#review" class="hover-underline">review</a>
+ <a href="#contact" class="hover-underline">contact</a>
+</nav>
+
+ <div class="icons">
+ <div id="login-btn" class="fas fa-user"></div>
+ <div id="menu-btn" class="fas fa-bars"></div>
+</div>
+
+<!-- login form -->
+
+<form action="" class="login-form">
+<h3>login form</h3>
+ <input type="email" placeholder="enter your email" class="box">
+ <input type="password" placeholder="enter your password" class="box">
+ <div class="remember">
+ <input type="checkbox" name="" id="remember">
+ <label for="remember-me">remember me</label>
+</div>
+ <a href="#" class="btn">
+ <span class="text text-1">login now</span>
+ <span class="text text-2" aria-hidden="true">login now</span>
+ </a>
+</form>
+ 
+</header> 
+
+<!--header section ends --> 
+
+<!-- home section starts--> 
+
+<section class="home" id="home">
+  
+<div class="content">
+ <h3>Educational Website for HTML and CSS</h3>
+ <br>
+<p> "Start your web development journey with easy-to-follow HTML & CSS lessons for free!"</p>
+<a href="/Website project/learnmore1.html" class="btn">
+   <span class="text text-1">learn more</span>
+ <span class="text text-2" aria-hidden="true">learn more</span>
+</a>
+
+</div>
+
+</section> 
+
+<!-- home section ends --> 
+
+<!--about section starts --> 
+
+<section class="about" id="about">
+
+<h1 class="heading">about us</h1> 
+
+<div class="container">
+
+ <figure class="about-image">
+ <img src="/image/About2.jpg" alt="" height="350" class="img1">
+ <img src="/image/About1.jpg" alt="" class="about-img" height="380" width="250">
+</figure> 
+
+ <div class="about-content">
+   <h3>babababa</h3>
+ <p>Bababababababababababababababababababab<br> abababbabababababababababbaaba</p>
+ <p>Bababababababababababababababababababab<br> abababbabababababababababbaaba</p>
+
+ <a href="#" class="btn">
+ <span class="text text-1">read more</span>
+ <span class="text text-2" aria-hidden="true">read more</span>
+ </a>
+ </div>
+</div>
+</section>
+
+<!-- about section ends --> 
+
+<!--subjects section starts -->
+
+<section class="subjects">
+  
+  <h1 class="heading"> Programming Languages</h1>
+  
+  <div class="box-container">
+  
+  <div class="box">
+    <img src="/image/Subject1.png" alt="">
+    <h3>HTML</h3>
+    <p> The Structure</p>
+  </div>
+  
+    <div class="box">
+    <img src="/image/Subject2.png" alt="">
+    <h3>CSS</h3>
+    <p> Design</p>
+  </div>
+
+    </div>
+</section>
+
+<!--subject section ends -->
+
+<!-- courses section starts -->
+
+<section class="courses" id="courses">
+  
+  <h1 class="heading"> HTML and CSS Lessons</h1>
+  
+  <div class="box-container">
+    
+    <div class="box">
+      <div class="image shine">
+        <img src="/image/Course1.jpg" alt="">
+        <h3>basic</h3>
+      </div>
+      <div class="content">
+        <h4>HTML</h4>
+        <p>updated 23/02/2025</p>
+        <h3> frotend developer </h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <span>(785)</span>
+        </div>
+        <div class="icons">
+          <span><i class="far fa-bookmark"></i> 3 lessons</span>
+         <span> <i class="far fa-clock"></i>5h 25m 9s</span>
+        </div>
+      </div>
+    </div>
+    
+      <div class="box">
+    <div class="image shine">
+      <img src="/image/Course1.jpg" alt="">
+      <h3>basic</h3>
+    </div>
+    <div class="content">
+      <h4>HTML</h4>
+      <p>updated 23/02/2025</p>
+      <h3> frotend developer </h3>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <span>(785)</span>
+      </div>
+      <div class="icons">
+        <span><i class="far fa-bookmark"></i> 3 lessons</span>
+        <span> <i class="far fa-clock"></i>5h 25m 9s</span>
+      </div>
+    </div>
+  </div>
+  
+    <div class="box">
+    <div class="image shine">
+      <img src="/image/Course1.jpg" alt="">
+      <h3>basic</h3>
+    </div>
+    <div class="content">
+      <h4>HTML</h4>
+      <p>updated 23/02/2025</p>
+      <h3> frotend developer </h3>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <span>(785)</span>
+      </div>
+      <div class="icons">
+        <span><i class="far fa-bookmark"></i> 3 lessons</span>
+        <span> <i class="far fa-clock"></i>5h 25m 9s</span>
+      </div>
+    </div>
+  </div>
+  
+    <div class="box">
+    <div class="image shine">
+      <img src="/image/Course1.jpg" alt="">
+      <h3>basic</h3>
+    </div>
+    <div class="content">
+      <h4>HTML</h4>
+      <p>updated 23/02/2025</p>
+      <h3> frotend developer </h3>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <span>(785)</span>
+      </div>
+      <div class="icons">
+        <span><i class="far fa-bookmark"></i> 3 lessons</span>
+        <span> <i class="far fa-clock"></i>5h 25m 9s</span>
+      </div>
+    </div>
+  </div>
+  
+    <div class="box">
+    <div class="image shine">
+      <img src="/image/Course1.jpg" alt="">
+      <h3>basic</h3>
+    </div>
+    <div class="content">
+      <h4>HTML</h4>
+      <p>updated 23/02/2025</p>
+      <h3> frotend developer </h3>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <span>(785)</span>
+      </div>
+      <div class="icons">
+        <span><i class="far fa-bookmark"></i> 3 lessons</span>
+        <span> <i class="far fa-clock"></i>5h 25m 9s</span>
+      </div>
+    </div>
+  </div>
+  
+    <div class="box">
+    <div class="image shine">
+      <img src="/image/Course1.jpg" alt="">
+      <h3>basic</h3>
+    </div>
+    <div class="content">
+      <h4>HTML</h4>
+      <p>updated 23/02/2025</p>
+      <h3> frotend developer </h3>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <span>(785)</span>
+      </div>
+      <div class="icons">
+        <span><i class="far fa-bookmark"></i> 3 lessons</span>
+        <span> <i class="far fa-clock"></i>5h 25m 9s</span>
+      </div>
+    </div>
+  </div>
+  
+  </div>
+</section>
+
+<!-- courses section ends -->
+
+<!--Members section starts-->
+
+<section class="teacher" id="teacher">
+  
+  <h1 class="heading">ICT Teachers</h1>
+  
+  <div class="box-container">
+    
+    <div class="box">
+      <div class="image">
+        <img src="/image/Teacher1.png" height="330" alt="">
+        <div class="share">
+           <a href="https://www.facebook.com/share/1Bux7nCvwh/" class="fab fa-facebook-f" target="_blank"></a>
+           <a href="https://www.instagram.com/m4rvsxxc.jxcb/" class="fab fa-instagram"></a>
+        </div>
+      </div>
+      <div class="content">
+        <h3>Marvin Jacobe</h3>
+        <span>CSS Instructor</span>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="image"> 
+        <img src="/image/Teacher2.png" height="330" alt=""> 
+        <div class="share">
+          <a href="https://www.facebook.com/share/18jLri8V54/" class="fab fa-facebook-f" target="_blank"></a>
+          <a href="https://www.instagram.com/norxx_mngrnda?igsh=azI3Zm40aGFsb2dw&utm_source=qr" class="fab fa-instagram"></a>
+        </div>
+      </div>
+      <div class="content">
+        <h3>Alnor Mangoranda</h3>
+        <span>HTML Instructor</span>
+      </div>
+    </div>
+    
+     <div class="box">
+   <div class="image">
+     <img src="/image/Teacher3.png " alt="">
+     <div class="share">
+       <a href="https://www.facebook.com/share/15mnVKUT4A/" class="fab fa-facebook-f" target="_blank"></a>
+       <a href="https://www.instagram.com/ering.fingerstyle?igsh=MzhtOTU5cTNqdjll" class="fab fa-instagram"></a>
+     </div>
+   </div>
+   <div class="content">
+     <h3>Erin Audrey Lacanienta</h3>
+     <span>Website Maker</span>
+   </div>
+ </div>
+  </div>
+</section>
+
+<!--Members section ends-->
+
+<!--review section starts-->
+
+ <section class="review" id="review">
+   
+   <h1 class="heading">our students review</h1>
+   
+   <div class="swiper review-slider">
+     
+     <div class="swiper-wrapper">
+       
+       <div class="swiper-slide slide">
+         <p>Great website! Easy to navigate, informative, and excellent customer support. Highly recommended</p>
+         <div class="wrapper">
+           <div class="separator"></div>
+           <div class="separator"></div>
+           <div class="separator"></div>
+           <div class="separator"></div>
+           <div class="separator"></div>
+          </div>
+         <i class="fas fa-quote-right"></i>
+         <div class="user">
+           <img src="/image/Review1.jpg"  height="50%" width="50%" alt="">
+           <div class="user-info">
+             <h3> Jennifer Guevarra</h3>
+             <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+             </div>
+           </div>
+         </div>
+       </div>
+       
+              <div class="swiper-slide slide">
+         <p>Great website! Easy to navigate, informative, and excellent customer support. Highly recommended</p>
+         <div class="wrapper">
+           <div class="separator"></div>
+           <div class="separator"></div>
+           <div class="separator"></div>
+           <div class="separator"></div>
+           <div class="separator"></div>
+         </div>
+         <i class="fas fa-quote-right"></i>
+         <div class="user">
+           <img src="/image/Review2.jpg"  height="50%" width="50%" alt="">
+           <div class="user-info">
+             <h3> Sheila Dior Cruz</h3>
+             <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+             </div>
+           </div>
+         </div>
+       </div>
+       
+              <div class="swiper-slide slide">
+         <p>Great website! Easy to navigate, informative, and excellent customer support. Highly recommended</p>
+         <div class="wrapper">
+           <div class="separator"></div>
+           <div class="separator"></div>
+           <div class="separator"></div>
+           <div class="separator"></div>
+           <div class="separator"></div>
+         </div>
+         <i class="fas fa-quote-right"></i>
+         <div class="user">
+           <img src="/image/Review3.jpg" height="50%" width="50%"  alt="">
+           <div class="user-info">
+             <h3> Varvara Kuzmenko</h3>
+             <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+             </div>
+           </div>
+         </div>
+       </div>
+       
+              <div class="swiper-slide slide">
+         <p>Great website! Easy to navigate, informative, and excellent customer support. Highly recommended</p>
+         <div class="wrapper">
+           <div class="separator"></div>
+           <div class="separator"></div>
+           <div class="separator"></div>
+           <div class="separator"></div>
+           <div class="separator"></div>
+         </div>
+         <i class="fas fa-quote-right"></i>
+         <div class="user">
+           <img src="/image/Review4.jpg"  height="50%" width="50%" alt="">
+           <div class="user-info">
+             <h3> Fritz Bunda</h3>
+             <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+             </div>
+           </div>
+         </div>
+       </div>
+       
+              <div class="swiper-slide   slide">
+         <p>Great website! Easy to navigate, informative, and excellent customer support. Highly recommended</p>
+         <div class="wrapper">
+           <div class="separator"></div>
+           <div class="separator"></div>
+           <div class="separator"></div>
+           <div class="separator"></div>
+           <div class="separator"></div>
+         </div>
+         <i class="fas fa-quote-right"></i>
+         <div class="user">
+           <img src="/image/Review5.jpg"
+           height="50%" width="50%" alt="">
+           <div class="user-info">
+             <h3> Mharjan Bonto</h3>
+             <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+             </div>
+           </div>
+         </div>
+       </div>
+       
+     </div>
+     
+   </div>
+   
+ </section>
+ 
+<!--review section ends-->
+
+ <!-- contact section starts -->
+ 
+ <section class="contact" id="contact">
+   
+   <h1 class="heading">contact us</h1>
+   
+   <div class="row">
+     <div class="image">
+       <img src="/image/Contact1.png" alt="">
+     </div>
+     <form action="">
+       <h3>send us a message</h3>
+       <input type="text" placeholder="name" class="box">
+       <input type="email" placeholder="email" class="box">
+       <input type="number" placeholder="phone number" class="box">
+       <textarea placeholder="message" class="box" cols="30" rows="10"></textarea>
+       <a href="#" class="btn">
+          <span class="text text-1">send message</span>
+<span class="text text-1" aria-hidden="true">send message</span>
+         </a>
+     </form>
+   </div>
+   
+ </section>
+ 
+ <!-- contact section ends-->
+
+<!-- footer section starts -->
+
+<section class="footer">
+  
+  <div class="box-container">
+    
+    <div class="box">
+      <h3> find us here</h3>
+      <p>bababababbaabababababba</p>
+      <div class="share">
+       <a href="#" class="fab fa-facebook"></a>
+       <a href="#" class="fab fa-instagram"></a>
+      </div>
+    </div>
+    
+    <div class="box">
+    <h3>contact us</h3>
+    <p>+63 970 955 7722</p>
+    <a href="#" class="link">erinlacanienta156@gmail.com</a>
+    </div>
+    
+    <div class="box">
+      <h3>localization</h3>
+      <p>Cainta Senior Highs chool, Cainta  Rizal , Philippines</p>
+      
+    </div>
+    
+  </div>
+  <div class="credit"> created by <span> Erin Audrey Lacanienta  </span>| all rights are reserved!</div>
+</section>
+
+<!-- ends -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- custom js -->
+<script src="webscript.js"></script>
+</body>
+</html>
